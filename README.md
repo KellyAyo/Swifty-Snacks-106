@@ -16,7 +16,7 @@ Add an extension, to RegistrationLoginController, to access optional methods con
 
 Implement ‘textFieldShouldReturn’ to insert instructions when the keyboard’s return button is pressed. The guard statement (// 1) checks to see if the textfield, in focus, is empty. If so, the function returns false and terminates before traversing through the switch statement. Otherwise, if the emailTextField is in focus, pressing return will change the views focus to the passwordTextField. Alternatively, if passwordTextField is the first responder, the switch statement will execute the signIn() function.
 
-<img src="Test/image3.png">
+<img src="Test/image3.png" height="1000">
 
 The signIn() function, will act as our first step toward embedding the sensitive information collected with Apple’s Keychain technology. We will use this function to gather all the data that we intend to encrypt. To help, with this task, let’s build a custom ‘User’ data type (aka struct) to provide storage of it’s associated properties: name & email.
 
