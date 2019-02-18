@@ -6,4 +6,4 @@ In this adventure we will endeavour to upgrade our app’s defences, using Apple
 
 To start, let’s add two new TextFields (namely: emailTextField & passwordTextField) and a SignIn button to our RegistrationLoginController.
 
-<img src="">
+<img src="Test/image1.png">
